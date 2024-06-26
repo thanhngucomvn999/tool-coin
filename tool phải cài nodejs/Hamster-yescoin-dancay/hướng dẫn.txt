@@ -1,0 +1,13 @@
+Share tool auto 2 trong 1 Hamster + Yescoin kết hợp đổi proxy (proxy xoay và list proxy)
+
+npm install dotenv
+
+Đối với ai sử dụng proxy xoay thì chạy thêm dòng trên
+
+Edit các thông tin cần thiết trong .env
+
+Đối với ai sử dụng list proxy thì dán proxy vào file "proxy.csv"
+
+Định dạng : http://user:pass@ip:port
+
+Đối với token : file authorization.csv..mỗi 1 dòng phải có định dạng "token1,token2", token 1 dùng cho hamster và token2 dùng cho yescoin

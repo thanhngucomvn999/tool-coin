@@ -1,0 +1,13 @@
+Share tool auto Blum chạy bằng python
+
+- Auto claim blum
+- Auto checkin hàng ngày
+- Auto chơi game nhặt tuyết
+
+Yêu cầu đã cài python 3.10 trở lên
+
+Chạy lệnh "pip install requests colorama"
+
+Lấy query_id dán vào file query.txt mỗi query_id là 1 dòng, cách lấy xem ảnh
+
+Chạy tool bằng lệnh "python blumpy.py"

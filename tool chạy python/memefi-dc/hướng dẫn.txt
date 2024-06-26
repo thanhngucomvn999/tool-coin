@@ -1,0 +1,17 @@
+Share tool auto tap memefi chạy bằng python (sử dụng proxy)
+
+Yêu cầu đã cài python 3.10 trở lên
+
+Chạy lệnh "pip install requests colorama"
+
+Tạo 2 file : proxy.txt và query_id.txt
+
+Cách lấy query_id : mở bot lên bấm f12 như ảnh (copy string contents)
+
+
+
+Định dạng proxy: http://user:pass@ip:port
+
+Chạy tool bằng lệnh "python memeproxy.py"
+
+Chỉnh sửa tốc độ tap tại : total_tap = ?

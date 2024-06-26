@@ -1,0 +1,24 @@
+Share tool auto Dotcoin (noproxy và proxy) sử dụng nodejs
+
+- Auto làm task
+- Auto tap
+- Auto upgrades daily attempt ( cái này nhiều lúc api trả về thông số sai so với lv thật của tài khoản nên nâng cấp sẽ bị lỗi nhé anh em, nếu bị lỗi thì phải nâng cấp bằng tay)
+
+👉 Link dotcoin : Click (https://t.me/dotcoin_bot?start=r_376905749_1001447106238) ✔️
+
+Hướng dẫn : tạo 2 file authorization.txt và proxy.txt(đã có thì thôi)
+
+Token lấy giống kèo hamster,yescoin (ném vào authorization.txt) ..có thể xem video : https://www.youtube.com/watch?v=FIB39LDLSQ0
+
+Định dạng proxy : http://user:pass@ip:port
+
+YÊU CẦU ĐÃ CÀI NODEJS
+
+chạy npm install sau đó chạy node dotcoin-proxy.js hoặc node dotcoin.js
+
+Sửa lại thời gian chờ cho phù hợp, mở file lên kéo xuống cuối tìm 600 sửa lại nhé (600 là số giây)
+
+        for (let i = 600; i > 0; i--) {
+            process.stdout.write(`\rBắt đầu vòng lặp sau ${i} giây...`);
+            await new Promise(resolve => setTimeout(resolve, 1000));
+        }

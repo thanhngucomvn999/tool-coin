@@ -1,0 +1,21 @@
+Share tool auto claim hot chạy bằng node js
+
+Ném info vào file account.js định dạng như dưới, 4 là số giờ cần claim cho từng acc
+
+"example.tg|seed phrase1|4",
+
+Chạy lệnh "npm install" rồi chạy "node claim.js"
+
+Link kèo hot : Click (https://t.me/herewalletbot/app?startapp=1044287-village-94247)
+
+- Sửa giờ claim + random 5-60 phút để claim
+Tùy biến có thể sửa lại chỗ
+const randomMinutes = getRandomMinutes(5, 60);
+
+- Sử dung send.js để send near đến tất cả acc trong file account.js
+
+Sửa acc send near trong file send.js
+
+Có ông nào call thẳng qua contract mà ăn ban hay giảm tốc đào chưa
+
+Link kèo hot : Click (https://t.me/herewalletbot/app?startapp=1044287-village-94247)

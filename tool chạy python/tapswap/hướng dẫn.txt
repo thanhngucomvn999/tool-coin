@@ -1,0 +1,27 @@
+Share tool auto tapswap (list proxy và noproxy)
+
+Hướng dẫn fix lỗi tapswap
+
+Mở file lên tìm "x-cv": "622" replace all thành "x-cv": "624"
+
+Xong
+
+Auto tap + mua turbo + mua energy + nâng cấp
+
+Yêu cầu cài python3.10 trở lên
+
+Chạy lệnh "pip install pytz aiohttp" hoặc "pip3 install pytz aiohttp"
+
+Chạy tool bằng lệnh
+
+python tapproxy.py hoặc python3 tapproxy.py
+
+Hướng dẫn
+
+Đầu tiên là cài extension bypass : Link (https://t.me/dancayairdrop/608)
+
+Mở bot lên f12 lấy các thông tin sau ném vào file data.txt (tự tạo), file proxy.txt (tự tạo) chứa list proxy
+
+content id|timestamp|chr|query_id
+
+Hướng dẫn bằng video : https://www.youtube.com/watch?v=28G2IhzWDlQ
